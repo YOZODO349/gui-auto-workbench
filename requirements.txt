@@ -1,0 +1,13 @@
+# GUI 自动化工作台 · 依赖
+#
+# 装法（用**带 tkinter 的**解释器建环境，别用精简版/便携版）：
+#   <python.exe> -m venv .venv
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# 注意 opencv-python 走官方源（部分国内镜像没有这个包）
+
+opencv-python==5.0.0.93
+pywin32==312
+Pillow==12.3.0
+PyYAML==6.0.3
+numpy>=2.0

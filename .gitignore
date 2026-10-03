@@ -1,0 +1,23 @@
+# 虚拟环境与缓存
+.venv/
+__pycache__/
+*.pyc
+
+# 你自己的数据（换机器不用带，也不该提交）
+config/profile.json
+config/scripts.json
+config/ui.json
+config/_verify_*.json
+config/_tmp/
+data/frames/*
+!data/frames/.gitkeep
+assets/templates/*
+!assets/templates/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# 备份 / 临时
+备份/
+backup/
+*.bak
+*.bak_cfg
